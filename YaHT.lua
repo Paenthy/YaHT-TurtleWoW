@@ -58,7 +58,7 @@ function YaHT:OnInitialize()
 				set = function() YaHT.db.profile.multi = not YaHT.db.profile.multi end,
 				order = 3,
 			},
-            steady_shot = {
+           		 steady_shot = {
 				name = L["Steady Shot in castbar"],
 				desc = L["Show 'Steady Shot' in the castbar"],
 				type = "toggle",
@@ -248,7 +248,7 @@ function YaHT:OnInitialize()
 	self.ShotSpells = {
 		[L["Aimed Shot"]] = true,
 		[L["Multi-Shot"]] = true,
-        [L["Steady Shot"]] = true,
+        	[L["Steady Shot"]] = true,
 		[L["Arcane Shot"]] = true,
 		[L["Concussive Shot"]] = true,
 		[L["Distracting Shot"]] = true,
